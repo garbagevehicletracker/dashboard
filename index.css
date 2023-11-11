@@ -4,11 +4,13 @@
   left: 20.31rem;
   letter-spacing: 0.1em;
 }
+
 #map,
 .small-box-child {
   position: absolute;
   border-radius: var(--br-3xs);
 }
+
 #map {
   top: 9.19rem;
   left: 2.75rem;
@@ -16,6 +18,7 @@
   height: 54.31rem;
   object-fit: cover;
 }
+
 .small-box-child {
   top: 0;
   left: 0;
@@ -24,6 +27,7 @@
   width: 38.69rem;
   height: 7.56rem;
 }
+
 .deep-dhabal {
   top: 0;
   left: 0;
@@ -31,11 +35,13 @@
   width: 13.51rem;
   height: 1.94rem;
 }
+
 .b,
 .deep-dhabal,
 .user-info {
   position: absolute;
 }
+
 .b {
   top: 2.68rem;
   left: 0;
@@ -45,6 +51,7 @@
   width: 9.54rem;
   height: 1.54rem;
 }
+
 .user-info {
   top: 0;
   left: 5.38rem;
@@ -53,6 +60,7 @@
   text-align: left;
   font-size: var(--font-size-9xl);
 }
+
 .user-profile-pic-icon {
   position: absolute;
   top: 0.31rem;
@@ -61,6 +69,7 @@
   height: 3.68rem;
   object-fit: cover;
 }
+
 .area-btn-child {
   position: absolute;
   top: 0;
@@ -72,6 +81,7 @@
   width: 8.55rem;
   height: 3.08rem;
 }
+
 .area {
   position: absolute;
   top: 0.59rem;
@@ -81,10 +91,12 @@
   width: 3.41rem;
   height: 1.77rem;
 }
+
 .area-btn {
   top: 0.56rem;
   left: 18.5rem;
 }
+
 .area-btn,
 .track-btn-child,
 .track-btn-item {
@@ -92,6 +104,7 @@
   width: 8.55rem;
   height: 3.08rem;
 }
+
 .track-btn-child {
   top: 0;
   left: 0;
@@ -100,6 +113,7 @@
   border: 3px solid var(--color-gray-100);
   box-sizing: border-box;
 }
+
 .track-btn-item {
   top: -0.01rem;
   left: 0.01rem;
@@ -107,6 +121,7 @@
   background-color: var(--color-lightcoral);
   display: none;
 }
+
 .track {
   position: absolute;
   top: 0.64rem;
@@ -117,6 +132,7 @@
   height: 1.77rem;
   -webkit-text-stroke: 1px #000;
 }
+
 .track-btn {
   position: absolute;
   top: 0.56rem;
@@ -125,6 +141,7 @@
   height: 3.08rem;
   color: var(--color-black);
 }
+
 .box-content {
   position: absolute;
   top: 1.69rem;
@@ -132,11 +149,13 @@
   width: 36.55rem;
   height: 4.22rem;
 }
+
 .small-box {
   position: relative;
   width: 38.69rem;
   height: 7.56rem;
 }
+
 .small-box-parent {
   position: absolute;
   top: 10.06rem;
@@ -150,6 +169,7 @@
   color: var(--color-gray-100);
   font-family: var(--font-inter);
 }
+
 .desktop-7 {
   position: relative;
   background-color: var(--color-white);
