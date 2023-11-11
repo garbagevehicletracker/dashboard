@@ -10,7 +10,8 @@ function updateMap() {
     var recentCoordinates = allCoordinates.slice(-5);
     var locations = recentCoordinates.map(coord => new Microsoft.Maps.Location(coord.latitude, coord.longitude));
 
-    map.entities.clear();
+    // map.entities.clear();
+    map.entities.remove(pushpin);
 
     var polyline = new Microsoft.Maps.Polyline(locations, {
         strokeColor: 'blue',
@@ -40,7 +41,7 @@ function fetchCoordinates() {
         .then(data => {
             var latitude = data.latitude;
             var longitude = data.longitude;
-
+            console.log(latitude, longitude);
             allCoordinates.push({ latitude, longitude });
 
             updateMap();
